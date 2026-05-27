@@ -1,0 +1,3 @@
+Test ID,Category,Test Name,Priority,Type,Component,Objective,Pre-conditions,Test Steps,Expected Results,Status,Tester,Date Tested,Actual Results,Notes,Bug ID
+TC-002,Functional,Bad formatting,P2,Manual,Auth,Broken list style,"- bullet not allowed","- step one
+- step two","1. still numbered ok",,,,,,

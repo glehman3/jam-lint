@@ -1,0 +1,6 @@
+Test ID,Category,Test Name,Priority,Type,Component,Objective,Pre-conditions,Test Steps,Expected Results,Status,Tester,Date Tested,Actual Results,Notes,Bug ID
+TC-001,Functional,Login happy path,P1,Manual,Auth,Verify user can sign in,"1. User account exists
+2. App is reachable","1. Open login page
+2. Enter valid credentials
+3. Submit form","1. User lands on dashboard
+2. Session cookie is set",,,,,,
