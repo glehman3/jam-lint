@@ -16,5 +16,8 @@ jobs:
           python-version: "3.12"
       - run: pip install ".[dev]"
       - run: pytest -q
-      - run: jam-lint check examples/broken.csv; test $? -eq 2
+      - run: |
+          set +e
+          jam-lint check examples/broken.csv
+          test $? -eq 2
       - run: jam-lint check examples/valid.csv
